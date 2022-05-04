@@ -1,0 +1,11 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Open+Sans:wght@300&family=Space+Mono&display=swap');
+</style>
+
+
+body {
+  background-color: rgb(240,240, 240);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 150px;
+  background-image: "images/code1.png";
+}

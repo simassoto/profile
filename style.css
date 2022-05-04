@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Open+Sans:wght@300&family=Space+Mono&display=swap');
+
+
+
+body {
+  background-color: rgb(217, 200, 200);
+  font-family: 'Montserrat', sans-serif;
+  background-image: url(images/code1.png);
+  background-size: cover;
+  background-position: 472px 236px;
+}
+
+h1, h2 {
+  font-family: 'Monserrat', sans-serif;
+}
+
+h1 {
+  color: #03091a;
+}
+
+h2 {
+  color: #8c7361;
+  font-size: 25px;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+.card-white {
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.3);
+  padding: 40px;
+  margin: 26px auto;
+  width: 500px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+
+.img-circle {
+  border-radius: 50%;
+  height: 150px;
+}
+
+.btn-blue {
+  background-color: #035397;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.btn-blue:hover {
+  background-color: #061c30;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+  display: inline-block;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+.social-icon {
+  color: rgb(230,230,230);
+  font-size: 32px;
+}
+
+.social-icon:hover {
+  color: rgb(200, 200, 200);
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
